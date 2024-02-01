@@ -1,0 +1,14 @@
+{
+  "name": "vanakkam-react",
+  "version": "1.0.0",
+  "description": "React sample project",
+  "main": "App.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "presli",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
