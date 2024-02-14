@@ -13,4 +13,6 @@ import ReactDOM from "react-dom/client";
 const heading=React.createElement("h1",{id:"heading",xyz:"xyz"},"Hello from React");
 const parent=React.createElement("div",{},React.createElement("div",{},[React.createElement("h1",{},"h1 tag"),React.createElement("h2",{},"h2 tag")]));
 const root=ReactDOM.createRoot(document.getElementById("root"));
-root.render(parent);
+//root.render(parent);
+const jsxHeading="<h1>this is using jsx</h1>";
+root.render(jsxHeading);

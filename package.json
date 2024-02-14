@@ -4,7 +4,9 @@
   "description": "React sample project",
   "main": "App.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "start":"parcel index.html",
+    "build":"parcel build index.html"
   },
   "author": "presli",
   "license": "ISC",
